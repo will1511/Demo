@@ -1,0 +1,67 @@
+.modal-header{
+    background: -webkit-linear-gradient(bottom, #432dbd, #7bd4f7);
+}
+
+.card-body {
+    color: black;
+}
+
+footer  {
+    color: white;
+}
+footer li > a {
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+
+.nav-links{
+    flex: 1;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.nav-links ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.nav-links ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ec3ba8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.opening
+{
+    background: radial-gradient(rgb(252, 252, 252),#edf6ff);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sehat:hover{
+    box-shadow: 2px 2px 10px rgb(255, 0, 85);
+    transition: .5s;
+    border-radius: 25px;
+    padding: 20px;;
+}
